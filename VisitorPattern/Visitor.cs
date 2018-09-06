@@ -54,7 +54,7 @@ namespace VisitorPattern
         void Accept(IVisitor visitor);
     }
 
-    public class Person : IAsset
+    public class Person
     {
         public Person()
         {
